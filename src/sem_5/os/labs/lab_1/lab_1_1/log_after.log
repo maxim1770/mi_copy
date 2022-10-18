@@ -1,0 +1,73 @@
+.:
+total 12M
+ 12M -rwxrwxrwx 1 maxim  12M Oct 10 20:52 archive.tar.gz
+4.0K -rwxrwxrwx 1 maxim    0 Oct 13 09:16 log_after.log
+4.0K -rwxrwxrwx 1 maxim 1.9K Oct 13 09:16 log_before.log
+   0 -rwxrwxrwx 1 maxim    0 Oct 13 09:16 new_file.txt
+4.0K -rwxrwxrwx 1 maxim 2.0K Oct 10 20:52 num_5.sh
+4.0K -rwxrwxrwx 1 maxim 1020 Oct 13 09:16 num_6.sh
+4.0K -rwxrwxrwx 1 maxim  797 Oct 10 12:00 test.txt
+   0 drwxrwxrwx 1 maxim 4.0K Oct 13 09:16 test_app
+   0 drwxrwxrwx 1 maxim 4.0K Oct 10 20:52 test_dir
+   0 drwxrwxrwx 1 maxim 4.0K Oct  4 19:40 test_dirs
+
+./test_app:
+total 0
+0 -rwxrwxrwx 1 maxim 0 Oct 13 09:16 bin_file.
+0 -rwxrwxrwx 1 maxim 0 Oct 13 09:16 conf.conf
+0 -rwxrwxrwx 1 maxim 0 Oct 13 09:16 lib.lib
+
+./test_dir:
+total 712K
+   0 -rwxrwxrwx 1 maxim    0 Oct 10 20:52 IMG_3418.jpg
+   0 -rwxrwxrwx 1 maxim    0 Oct 10 20:52 IMG_3420.jpg
+   0 -rwxrwxrwx 1 maxim    0 Oct 10 20:52 IMG_3421.jpg
+712K -rwxrwxrwx 1 maxim 710K Sep 26 14:45 IMG_3422.jpg
+
+./test_dirs:
+total 0
+0 drwxrwxrwx 1 maxim 4.0K Oct  4 18:25 etc
+0 drwxrwxrwx 1 maxim 4.0K Oct  4 00:33 usr
+0 drwxrwxrwx 1 maxim 4.0K Oct  4 19:40 var
+
+./test_dirs/etc:
+total 0
+0 drwxrwxrwx 1 maxim 4.0K Oct  6 22:33 surname
+
+./test_dirs/etc/surname:
+total 0
+0 -rwxrwxrwx 1 maxim 46 Oct 13 09:16 conf.conf
+
+./test_dirs/usr:
+total 0
+0 drwxrwxrwx 1 maxim 4.0K Oct  4 22:39 bin
+0 drwxrwxrwx 1 maxim 4.0K Oct  6 23:09 lib
+0 drwxrwxrwx 1 maxim 4.0K Oct  4 17:21 share
+
+./test_dirs/usr/bin:
+total 0
+0 -rwxrwxrwx 1 maxim 0 Oct 13 09:16 bin_file.
+
+./test_dirs/usr/lib:
+total 0
+0 -rwxrwxrwx 1 maxim 0 Oct 10 20:52 lib.lib
+
+./test_dirs/usr/share:
+total 0
+0 drwxrwxrwx 1 maxim 4.0K Oct  4 17:22 doc
+
+./test_dirs/usr/share/doc:
+total 0
+0 drwxrwxrwx 1 maxim 4.0K Oct  4 19:05 surname
+
+./test_dirs/usr/share/doc/surname:
+total 0
+0 -rwxrwxrwx 1 maxim 0 Oct 10 20:52 doc.doc
+
+./test_dirs/var:
+total 0
+0 drwxrwxrwx 1 maxim 4.0K Oct  6 23:07 log
+
+./test_dirs/var/log:
+total 8.0K
+8.0K -rwxrwxrwx 1 maxim 4.1K Oct 13 09:14 surname.log
